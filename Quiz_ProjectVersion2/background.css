@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: white;
+    z-index: 4;
+}
+
+#backgrounds {
+    border-color: white;
+    background-color: transparent;
+    z-index: 3;
+    width: 947px;
+    border-radius: 30px;
+}
