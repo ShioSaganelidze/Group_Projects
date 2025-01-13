@@ -1,0 +1,63 @@
+:root {
+    --main-border-radius: 30px;
+}
+
+* {
+    font-family: inter;
+}
+
+h1 {
+    text-shadow: 0px 10px 10px;
+    margin-top: 18%;
+    border: 2px dashed black;
+    border-radius: var(--main-border-radius);
+    width: 600px;
+    padding: 30px;
+}
+
+@media (min-width: 1024px) {
+    img {
+        position: absolute;
+        left: 58%;
+        height: 83.5%;
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1440px) {
+    img {
+        position: absolute;
+        left: 50%;
+        height: 81.3%;
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    #backgrounds {
+        height: 700px;
+    }
+}
+
+@media (min-width: 1920px) {
+    img {
+        position: absolute;
+        left: 44%;
+        height: 73.9%;
+        width: 29%;
+    }
+
+    h1 {
+        font-size: 33.5px;
+    }
+
+    #backgrounds {
+        height: 700px;
+    }
+}
